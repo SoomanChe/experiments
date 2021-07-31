@@ -1,0 +1,14 @@
+logging.level:
+  com.slack.api: DEBUG
+  com.amazonaws.util.EC2MetadataUtils: error
+cloud:
+  aws:
+    s3:
+      bucket: colawork-static-storage
+    region:
+      static: ap-northeast-2
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      profile-name: default
