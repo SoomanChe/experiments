@@ -1,0 +1,5 @@
+dependencies {
+    implementation "org.springframework.cloud:spring-cloud-aws-messaging:${CLOUD_AWS_VERSION}"
+    implementation "org.springframework.cloud:spring-cloud-starter-aws:${CLOUD_AWS_VERSION}"
+    implementation 'org.awaitility:awaitility:4.1.0'
+}
