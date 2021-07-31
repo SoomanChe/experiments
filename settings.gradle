@@ -1,0 +1,3 @@
+rootProject.name = 'experiment'
+include 'spring_sqs', 'spring_bolt', 'thread_pool_test'
+
