@@ -1,4 +1,6 @@
 dependencies {
+    implementation("org.testcontainers:localstack:${TEST_CONTAINER_VERSION}")
+    testImplementation("org.testcontainers:junit-jupiter:${TEST_CONTAINER_VERSION}")
     implementation "org.springframework.cloud:spring-cloud-aws-messaging:${CLOUD_AWS_VERSION}"
     implementation "org.springframework.cloud:spring-cloud-starter-aws:${CLOUD_AWS_VERSION}"
     implementation 'org.awaitility:awaitility:4.1.0'

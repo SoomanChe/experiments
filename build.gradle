@@ -4,7 +4,10 @@ plugins {
     id 'java'
 }
 
-ext.CLOUD_AWS_VERSION = '2.2.6.RELEASE'
+ext {
+    CLOUD_AWS_VERSION  = '2.2.6.RELEASE'
+    TEST_CONTAINER_VERSION = '1.16.0'
+}
 
 subprojects {
     apply plugin: 'org.springframework.boot'
